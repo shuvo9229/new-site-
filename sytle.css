@@ -1,0 +1,397 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: var(---color);
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+:root{
+    ---color: #0b0736;
+}
+
+   /* nav bar Design Section   */
+.nav{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    max-width: 93%;
+    margin: auto;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+
+.nav span{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+
+
+.nav_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 8px;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+
+
+
+.nav_btn p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* Nav bar banner Section Design  */
+.img{
+    position: absolute;
+    top: 0px;
+    right:0px ;
+    width: 50dvw;
+}
+
+
+
+/* Banner Litle Section Design  */
+.banner_title{
+    width: 40%;
+    margin-left:150px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+
+
+.banner_title h1{
+    font-size: 90px;
+    font-weight: bold;
+}
+
+
+
+.banner_text{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.banner_text img{
+    width: 25px;
+}
+
+
+
+.banner_title button{
+    padding: 12px 20px;
+    background-color: var(---color);
+    border-radius: 10px;
+    width: 142px;
+}
+
+
+
+.banner_title button a{
+    font-size: 19px;
+    color: white;
+}
+
+
+
+/* Terget Section Design  */
+.terget_section{
+    display: flex;
+    max-width: 80%;
+    margin-left:105px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+}
+
+
+
+.target_title{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+    & h1{
+        font-size: 68px;
+        font-weight: bold;
+    }
+
+    & p{
+        color: #808080;
+        font-size: 24px;
+    }
+
+    & .target_btn{
+        display: flex;
+        justify-content: space-around;
+        background-color: #cce8fd;
+        padding: 15px;
+        width: 199px;
+        border-radius: 18px;
+
+       & .btn{
+        
+
+        & p{
+            font-size: 14px
+        }
+
+        & span{
+            font-size: 18px;
+            font-weight: 600;
+            color: var(---color);
+        }
+       } 
+    }
+}
+
+
+
+/* section 2 Design  */
+.section2{
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+}
+
+
+
+.section_img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -10;
+}
+
+
+
+.stwo_title h1{
+    font-size: 85px;
+    font-weight: 600;
+}
+
+
+
+.stwo_image{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.stwo_image_Bone{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20px; */
+}
+
+
+
+.stwo_image_Btwo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+
+
+.stwo_two{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    position: relative;
+}
+
+
+
+.stwo_two_bone{
+    width: 403px;
+    position: absolute;
+    left: -100px;
+    bottom: 410px;
+}
+
+
+
+.stwo_two_bone h1{
+    font-size: 40px;
+    color:#9393c4 ;
+}
+
+
+
+.stwo_two_btwo{
+    position: relative;
+    width: 100%;
+
+    & .parcent{
+         position: absolute;
+        top: -25px;
+        left:-100px;
+    }
+
+    & h2{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    & p{
+        color: #9393c4;
+        font-size: 20px;
+    }
+}
+
+
+
+.stwo_two_bthree{
+    position: relative;
+    width: 100%;
+
+    & .camera{
+        position: absolute;
+        top: -25px;
+        left:-100px;
+    }
+
+    & h2{
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    & p{
+        color: #9393c4;
+        font-size: 20px;
+    }
+}
+
+
+
+.stwo_two_btwo_b1 p{
+    margin-top: 20px;
+}
+
+
+
+.stwo_two_bthree_b1 p{
+    margin-top: 20px;
+}
+
+
+
+.about_app{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 100px;
+}
+
+
+
+/* compnay Section Design  */
+.company{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 140px;
+}
+
+
+.company img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* join section bar design  */
+.join{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 140px;
+    background-color: #d9f4ff;
+    border-radius: 80px;
+    margin-bottom: 200px;
+    position: relative;
+}
+
+
+.join_bey{
+
+    & h1{
+        font-size: 68px;
+        font-weight: bold;
+    }
+}
+
+
+.joinbey_btn{
+    margin-top: 30px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #130f49;
+    padding: 15px;
+    border-radius: 30px;
+    z-index: -10;
+
+    & .joinbey_title{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        & h6{
+            color: white;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        & p{
+            color: #9393c4;
+        }
+    }
+}
+
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+
+    & p{
+        color: #9393c4;
+    }
+}
