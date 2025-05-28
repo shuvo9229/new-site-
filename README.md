@@ -1,1 +1,1 @@
-https://github.com/shuvo9229/new-site-.git
+ https://shuvo9229.github.io/new-site-/
